@@ -5,7 +5,7 @@ using UnityEngine;
 public class IGameManager : MonoBehaviour
 {
     public static IGameManager Instance { get; private set; }
-    // ... reference to egg spawner
+    public EggSpawner eggSpawner;
     public GameObject mainCamera;
     public UIManager uiManager;
 
@@ -22,15 +22,13 @@ public class IGameManager : MonoBehaviour
         }
     }
 
-
     public void StartGame()
     {
         IScoreManager.Instance.ResetScore();
         ILivesManager.Instance.ResetLife();
         mainCamera.transform.Rotate(Vector3.left, 90);
         uiManager.ShowGameUI();
-
-        // ... tell egg spawner to spawn eggs
+        eggSpawner.StartEggDrop();
     }
 
     public void GameOver()
@@ -38,13 +36,8 @@ public class IGameManager : MonoBehaviour
         IScoreManager.Instance.UpdateHighScore();
         mainCamera.transform.Rotate(Vector3.left, -90);
         uiManager.ShowGameOverUI();
-
-        // ... stop egg spawner
-
-        // tell egg spawner to destroy all eggs
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Egg");
-        foreach (GameObject enemy in enemies)
-        GameObject.Destroy(enemy);
+        eggSpawner.StopEggDrop();
+        eggSpawner.DestroyAllEggs();
     }
 
     public void MainMenu()

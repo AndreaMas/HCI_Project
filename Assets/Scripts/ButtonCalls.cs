@@ -10,7 +10,6 @@ public class ButtonCalls : MonoBehaviour
     /// </summary>
     public void CallStartGame()
     {
-        Debug.Log("fine till now");
         IGameManager.Instance.StartGame();
     }
 
@@ -33,4 +32,5 @@ public class ButtonCalls : MonoBehaviour
     {
         IGameManager.Instance.PauseMenu();
     }
+
 }

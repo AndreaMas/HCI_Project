@@ -7,12 +7,10 @@ public class IScoreManager : MonoBehaviour
 {
     public static IScoreManager Instance { get; private set; }
     private int score;
-    private int highScore;
 
     public Text scoreInGame;
     public Text scoreGameOver;
     public Text highScoreGameOver;
-
 
     private void Awake()
     {
@@ -26,7 +24,6 @@ public class IScoreManager : MonoBehaviour
             Destroy(gameObject);
         }
         ResetScore();
-        highScore = PlayerPrefs.GetInt("highScore");
         
     }
 
@@ -40,11 +37,11 @@ public class IScoreManager : MonoBehaviour
     {
         if (score > PlayerPrefs.GetInt("highScore"))
         {
-            PlayerPrefs.SetInt("highScore", highScore);
+            PlayerPrefs.SetInt("highScore", score);
         }
         scoreInGame.text = score.ToString();
         scoreGameOver.text = score.ToString();
-        highScoreGameOver.text = score.ToString();
+        highScoreGameOver.text = PlayerPrefs.GetInt("highScore").ToString();
     }
 
     public void ResetScore()

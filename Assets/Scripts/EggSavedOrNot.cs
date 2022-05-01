@@ -13,7 +13,6 @@ public class EggSavedOrNot : MonoBehaviour
     private float timer = 0f;
     private float timerEnd = 1f;
 
-
     public AudioSource playEggSuccess;
     public AudioSource playEggCrack1;
 
