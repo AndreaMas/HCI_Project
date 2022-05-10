@@ -1,7 +1,7 @@
 # Human Computer Interaction Course Project
 Human computer interaction videogame project, Unity and Mediapipe used, made with love by **Andrea Masciulli** and **Alessandro Pegoraro**. 
 
-For the actual build of the game, please visit https://github.com/AndreaMas/HCI_project_build
+To play, please download the build of the game, which can be found here: https://github.com/AndreaMas/HCI_project_build
 
 ![image](https://user-images.githubusercontent.com/32450751/166153226-ddaf85f6-538f-4f5c-b7b5-533466f72196.png)
 ![image](https://user-images.githubusercontent.com/32450751/166153185-3aa2c2c6-6679-48e2-82c0-369f2c4cf9af.png)
