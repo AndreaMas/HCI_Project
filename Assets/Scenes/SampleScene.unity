@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.67932403, g: 0.73286986, b: 0.8046716, a: 1}
+  m_IndirectSpecularColor: {r: 0.67936045, g: 0.73288816, b: 0.8046805, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4929,7 +4929,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play
+  m_Text: Wait...
 --- !u!222 &779181439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7539,7 +7539,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1147013795}
   m_OnClick:
     m_PersistentCalls:
@@ -7808,7 +7808,10 @@ MonoBehaviour:
   - {fileID: 1569717138}
   - {fileID: 881022607}
   - {fileID: 1025496708}
+  startButton: {fileID: 1147013794}
+  startButtonText: {fileID: 779181438}
   t: 1
+  waitStartTime: 5.75
 --- !u!1 &1240133101
 GameObject:
   m_ObjectHideFlags: 0

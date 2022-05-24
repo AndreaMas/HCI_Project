@@ -16,18 +16,22 @@ public class UDPReceive : MonoBehaviour
     public string data;
 
 
-    public void Start()
+    private void Start()
     {
         receiveThread = new Thread(new ThreadStart(ReceiveData));
         receiveThread.IsBackground = true;
         receiveThread.Start();
     }
 
+    private void OnDestroy()
+    {
+        receiveThread.Abort();
+    }
+
 
     // receive thread
     private void ReceiveData()
     {
-
         client = new UdpClient(port);
         while (startRecieving)
         {
