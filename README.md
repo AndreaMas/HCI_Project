@@ -4,9 +4,6 @@ Human computer interaction videogame project, made by **Andrea Masciulli** and *
 
 In this repo you can find the Unity code. 
 
-## Run the game
-To execute the game, download the folder in this repo, unzip and double click on 3dHandTracking.exe.
-
 ## Build
 https://github.com/AndreaMas/HCI_project_build
 
