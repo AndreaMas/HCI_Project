@@ -2,7 +2,7 @@
 
 Human computer interaction videogame project, made by **Andrea Masciulli** and **Alessandro Pegoraro**. 
 
-In this repo you can find the Unity code. 
+In this repo you can find the unity project source files. 
 
 ## Build
 https://github.com/AndreaMas/HCI_project_build
