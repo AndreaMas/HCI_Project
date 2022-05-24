@@ -4,9 +4,9 @@ Human computer interaction videogame project, made by **Andrea Masciulli** and *
 
 In this repo you can find the Unity code. 
 
-For the builded application, please visit: https://github.com/AndreaMas/HCI_project_build
+For the build, please visit: https://github.com/AndreaMas/HCI_project_build
 
-For the video presentation of the project, please visit: https://youtu.be/vlIggj5z7s4
+For the video presentation, please visit: https://youtu.be/vlIggj5z7s4
 
 
 
