@@ -14,7 +14,7 @@ The project consists of a python script and a unity project:
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/32450751/195997362-246ebc35-81b7-4781-8a55-e6f7472c40af.gif)
 
-## To play the game
+## Play the game here
 https://aramas.itch.io/catch-them-eggs
 
 ## Video Presentation
