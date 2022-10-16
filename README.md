@@ -1,7 +1,12 @@
 ![image](https://user-images.githubusercontent.com/32450751/169312352-ed6df610-6867-4cef-9549-5026449c821c.png)
 
+## What is this
 
-Human computer interaction videogame project, made by **Andrea Masciulli** and **Alessandro Pegoraro**. 
+A Unity videogame, developed as a Human computer interaction videogame project, made by **Andrea Masciulli** and **Alessandro Pegoraro**. It uses both Unity and Mediapipe in order to bond hand-detection capabilities to an engaging gameplay.
+
+## Concept
+
+Eggs are falling from the sky! Use your hands (placing them in front of the camera) to catch and save as many eggs you can.
 
 ## Project structure
 
