@@ -1,8 +1,12 @@
 ![image](https://user-images.githubusercontent.com/32450751/169312352-ed6df610-6867-4cef-9549-5026449c821c.png)
 
-## What is this
+## What is this?
 
-A Unity videogame, developed as a Human computer interaction videogame project, made by **Andrea Masciulli** and **Alessandro Pegoraro**. It uses both Unity and Mediapipe in order to bond hand-detection capabilities to an engaging gameplay.
+A Unity videogame, developed as a Human Computer Interaction project, made by **Andrea Masciulli** and **Alessandro Pegoraro**. It uses both Unity and Mediapipe in order to bond hand-detection capabilities to an engaging gameplay.
+
+**Play the game**: https://aramas.itch.io/catch-them-eggs
+
+**Video Presentation**: https://youtu.be/vlIggj5z7s4
 
 ## Concept
 
@@ -19,11 +23,7 @@ The project consists of a python script and a unity project:
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/32450751/195997362-246ebc35-81b7-4781-8a55-e6f7472c40af.gif)
 
-## Play the game here
-https://aramas.itch.io/catch-them-eggs
 
-## Video Presentation
-https://youtu.be/vlIggj5z7s4
 
 
 
