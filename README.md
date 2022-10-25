@@ -14,12 +14,14 @@ Eggs are falling from the sky! Use your hands (placing them in front of the came
 
 ## Project structure
 
-The project consists of a python script and a unity project:
+The project consists of a python project and a unity project:
 
-- the python script is responsible to detect hands in front of the camera. The hand position is then sent on a port through UTP protocol.
+- the python project is responsible to detect hands in front of the camera. The hand position is then sent on a port through UTP protocol.
 - the unity project lissens on the aforementioned port (with a custom script) using the hand position for its gameplay.
 
-**NOTE**: The repo misses the aforementioned python script. This is because we suggest following the initial 20 minutes of [Murtaza's Workshop Tutorial](https://www.youtube.com/watch?v=RQ-2JWzNc6k) to setup the python virtual environment. After that setup, the unity project should work fine.
+The python virtual environment (containing custom scripts and opencv&mediapipe libraries) is then built into an EXE app (there are some easy to use libraries that enable you to do so). The unity project contains a script responsible of executing such executable.
+
+**NOTE**: The repo misses the aforementioned python project. This is because we suggest following the initial 20 minutes of [Murtaza's Workshop Tutorial](https://www.youtube.com/watch?v=RQ-2JWzNc6k) to setup the python virtual environment. After that setup, the unity project should work fine (please check that executable names and file path are the same).
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/32450751/195997362-246ebc35-81b7-4781-8a55-e6f7472c40af.gif)
 
